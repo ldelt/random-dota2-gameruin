@@ -156,6 +156,7 @@ def main():
                 break
         for hero in heroes:
             print(f'Random hero {counter}: {hero}')
+            counter += 1
             
     if args.boots or args.all:
         print(f"Random boots: {get_random_boots()}")
